@@ -1,0 +1,38 @@
+/* must haves! we will talk about CSS box model and talk about this box-sizing  */
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    margin:0px;
+}
+
+/* header */
+.logo{
+   padding: 0px 0px;
+}
+
+.hero{
+   background: url("../img/UC_BKGRND.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+
+
+}
+
+.thumb{
+    width:100%;
+    max-width:300px;
+    margin:auto;
+    display:block;
+}
+
+.thumb:hover{
+    opacity: .75;
+}
+
+.brightTeal{
+    background-color: #00ffcc;
+}
